@@ -1,0 +1,33 @@
+.image-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.place-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.place-name {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .image-card-container {
+    width: 50%;
+  }
+  .place-name {
+    font-size: 20px;
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image-card-container {
+    width: 33%;
+  }
+}
